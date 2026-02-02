@@ -1,0 +1,115 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+
+# Environments / secrets
+.env
+.env.*
+.envrc
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases
+*.db
+*.sqlite3
+*.sqlite3-journal
+
+# Logs
+*.log
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mypy / Ruff / Pyre / Pytype
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+**/node_modules/
+
+.next/
+out/
+dist/
+build/
+.vercel/
+turbo/
+.cache/
+
+# Next env
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# npm/yarn/pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+# =========================
+# Project-specific (Hackathon)
+# =========================
+# local sqlite/dev db
+backend/dev.db
+
+# python bytecode inside backend
+backend/app/**/__pycache__/
+backend/app/**/*.pyc
+backend/app/router/**/__pycache__/
+
+# If you accidentally created extra folders/files
+md/
+
+# HuggingFace workspace folder (if exists)
+hf-backend/
+
+# =========================
+# Do NOT ignore screenshots (needed in README)
+# =========================
+!screenshots/
+!screenshots/**/*
+# Root / backend node junk (local only)
+package.json
+package-lock.json
+backend/package.json
+backend/package-lock.json
+body.json

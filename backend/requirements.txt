@@ -1,0 +1,21 @@
+# FastAPI core
+fastapi
+uvicorn
+gunicorn
+
+# Database
+sqlmodel
+pydantic
+pydantic-settings
+psycopg2-binary
+
+# Env & forms
+python-dotenv
+python-multipart
+
+# HTTP
+httpx
+
+# OpenAI + Agents SDK
+openai
+openai-agents
